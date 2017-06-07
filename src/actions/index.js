@@ -1,0 +1,12 @@
+export function selectBook(book) {
+  // selectBook is an ActionCreator, it needs to return an
+  // action, which is an object with a [action] type property
+  return {
+    type: 'BOOK_SELECTED',
+    payload: book,
+  };
+}
+
+// export default {
+//   selectBook,
+// };
